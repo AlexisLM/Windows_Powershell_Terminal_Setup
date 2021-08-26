@@ -9,8 +9,8 @@ Install-Module posh-git -Confirm:$false -Force
 Install-Module oh-my-posh -Confirm:$false -Force
 
 # Create WindowsPowerShell directory if not exists
-$pwsh_path = Path.Combine([Environment]::GetFolderPath("MyDocuments"), `
-  "WindowsPowerShell")
+$pwsh_path = [Environment]::GetFolderPath("MyDocuments")
+$pwsh_path = "$pwsh_path\WindowsPowerShell"
 New-Item -ItemType Directory -Force -Path $pwsh_path
 
 # Move PowerShell profile script
