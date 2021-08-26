@@ -1,9 +1,9 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -19,7 +19,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -33,16 +33,16 @@
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "initialCols": 80,
     "initialRows": 15,
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "acrylicOpacity": 0.75,
             "colorScheme": "synthwave-everything",
-            "fontFace": "Inconsolata",
+//            "fontFace": "Inconsolata",
             "fontSize": 10
         },
-        "list": 
+        "list":
         [
             {
                 "acrylicOpacity": 1.0,
@@ -83,7 +83,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#101116",
